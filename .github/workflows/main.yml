@@ -35,7 +35,7 @@ jobs:
         with:
           role-to-assume: arn:aws:iam::${{ env.AWS_ACCOUNT_ID }}:role/dentsas_portfolio_page_iam_main
           aws-region: ${{ env.AWS_REGION }}
-      - name: Copy resume to S3 bucket ${{ env.AWS_REGION }}
+      - name: Copy resume to S3 bucket
         working-directory: resume 
         run: |
           aws s3 cp ./build/index.html s3://${{ env.AWS_BUCKET_NAME }}/resume/index.html
