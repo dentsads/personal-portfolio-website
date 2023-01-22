@@ -20,6 +20,7 @@ jobs:
     env:
       AWS_REGION: eu-central-1
       AWS_ACCOUNT_ID: 673449159430
+      AWS_BUCKET_NAME: dimitrios.dentsas.com
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -34,6 +35,6 @@ jobs:
         with:
           role-to-assume: arn:aws:iam::${{ env.AWS_ACCOUNT_ID }}:role/dentsas_portfolio_page_iam_main
           aws-region: ${{ env.AWS_REGION }}
-      - name: Copy resume to S3 bucket        
+      - name: Copy resume to S3 bucket ${{ env.AWS_REGION }}      
         run: |
-          aws s3 sync . s3://dimitrios.dentsas.com/resume/
+          aws s3 cp build/index.html s3://${{ env.AWS_BUCKET_NAME }}/resume/index.html
