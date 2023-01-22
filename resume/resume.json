@@ -2,31 +2,26 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Dimitrios Dentsas",
-    "label": "Programmer",
-    "image": "",
-    "email": "d.dentsas@googlemail.com",
-    "phone": "(912) 555-4321",
+    "label": "Software Engineer",
+    "image": "https://avatars.githubusercontent.com/u/3093728?s=96&v=4",
     "url": "http://dimitrios.dentsas.com",
     "summary": "This is Dimitrios",
     "location": {
-      "address": "Kirchstr",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Deizisau, Germany"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
+        "network": "Github",
+        "username": "github.com/dentsads",
+        "url": "https://github.com/dentsads"
       },
       {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.example.com/dandymusicnl"
+        "network": "LinkedIn",
+        "username": "dimitriosdentsas",
+        "url": "https://www.linkedin.com/in/dimitriosdentsas/"
       }
-    ]
+    ],
+    "website": "http://dimitrios.dentsas.com"
   },
   "work": [
     {
@@ -42,19 +37,6 @@
         "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
         "Successfully won Techcrunch Disrupt",
         "Optimized an algorithm that holds the current world record for Weisman Scores"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "url": "http://coderdojo.example.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": [
-        "Awarded 'Teacher of the Month'"
       ]
     }
   ],

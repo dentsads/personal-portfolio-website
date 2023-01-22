@@ -1,1 +1,4 @@
 build/
+node_modules/
+resume/package-lock.json
+resume/package.json
