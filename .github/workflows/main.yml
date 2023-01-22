@@ -28,7 +28,7 @@ jobs:
         uses: kelvintaywl/action-jsonresume-export@v1
         with:
           theme: caffeine
-          resume_filepath: resume.json
+          resume_filepath: ./resume/resume.json
           output_filepath: build/index.html
       - name: Authenticate to AWS
         uses: aws-actions/configure-aws-credentials@v1
