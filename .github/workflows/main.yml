@@ -1,4 +1,4 @@
-name: Publish my resume in JSONResume format to AWS S3 personal website bucket
+name: Build and Deploy JSONResume
 on:
   workflow_dispatch:
   push:
@@ -6,6 +6,10 @@ on:
     - master
     paths:
     - resume/**
+
+permissions:
+  id-token: write
+  contents: read 
 
 jobs:
   build:
@@ -20,6 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Export resume as HTML
+        working-directory: ./resume
         uses: kelvintaywl/action-jsonresume-export@v1
         with:
           theme: caffeine
