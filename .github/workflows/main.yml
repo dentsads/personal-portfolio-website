@@ -1,0 +1,35 @@
+name: Publish my resume in JSONResume format to AWS S3 personal website bucket
+on:
+  workflow_dispatch:
+  push:
+    branches:
+    - master
+    paths:
+    - resume/**
+
+jobs:
+  build:
+    defaults:
+      run:
+        working-directory: resume
+    runs-on: ubuntu-latest
+    env:
+      AWS_REGION: eu-central-1
+      AWS_ACCOUNT_ID: 673449159430
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Export resume as HTML
+        uses: kelvintaywl/action-jsonresume-export@v1
+        with:
+          theme: caffeine
+          resume_filepath: resume.json
+          output_filepath: build/index.html
+      - name: Authenticate to AWS
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          role-to-assume: arn:aws:iam::${{ env.AWS_ACCOUNT_ID }}:role/dentsas_portfolio_page_iam_main
+          aws-region: ${{ env.AWS_REGION }}
+      - name: Copy resume to S3 bucket        
+        run: |
+          aws s3 sync . s3://dimitrios.dentsas.com/resume/

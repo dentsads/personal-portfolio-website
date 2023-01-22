@@ -1,4 +1,4 @@
-# dentsas.com
+# dimitrios.dentsas.com
 
 [Install s3cmd](http://s3tools.org/s3cmd) to be able to deploy to S3.
 
