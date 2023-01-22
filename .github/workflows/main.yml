@@ -24,7 +24,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Export resume as HTML
-        working-directory: ./resume
         uses: kelvintaywl/action-jsonresume-export@v1
         with:
           theme: caffeine
