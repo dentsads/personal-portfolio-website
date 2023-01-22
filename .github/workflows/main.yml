@@ -38,4 +38,4 @@ jobs:
       - name: Copy resume to S3 bucket
         working-directory: resume 
         run: |
-          aws s3 cp ./build/index.html s3://${{ env.AWS_BUCKET_NAME }}/resume/index.html
+          aws s3 cp ./build/index.html s3://${{ env.AWS_BUCKET_NAME }}/resume/index.html --acl public-read
