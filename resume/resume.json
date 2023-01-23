@@ -1,11 +1,12 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Dimitrios Dentsas",
     "label": "Software Engineer",
-    "image": "https://avatars.githubusercontent.com/u/3093728?s=96&v=4",
+    "picture": "https://avatars.githubusercontent.com/u/3093728?s=96&v=4",
     "url": "http://dimitrios.dentsas.com",
-    "summary": "This is Dimitrios",
+    "email": "d.dentsas@gmail.com",
+    "phone": "+49 176 62297047",
+    "summary": "I'm a Software Engineer who is passionate about working on solutions that bring value to business users through the help of technology. I have experience in software engineering, cloud & containers, web design and services for applications on GCP and AWS. My tech stack is Java, Spring Boot, Microservices, SQL, Linux, Kubernetes among many other technologies I learned over the years",
     "location": {
       "address": "Deizisau, Germany"
     },
@@ -25,117 +26,176 @@
   },
   "work": [
     {
-      "name": "Pied Piper",
-      "location": "Palo Alto, CA",
-      "description": "Awesome compression company",
-      "position": "CEO/President",
-      "url": "http://piedpiper.example.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "company": "Robert Bosch GmbH",
+      "location": "Stuttgart, Germany",
+      "position": "Software Engineer Kubernetes as a Service - Bosch Private Cloud",
+      "url": "https://www.bosch.de/",
+      "startDate": "2019-01-15",
+      "summary": "Member of a cross-functional agile team of 5 people working tirelessly to provide a fully automated, managed Kubernetes service for Bosch internal business customers.",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Building a Kubernetes service offering on our on–prem cloud platform",
+        "Development and operations",
+        "Close collaboration with customers",
+        "Striving for regular improvements. Driving to deliver value even under non ideal circumstances",
+        "Regular knowledge exchange and tutoring of colleagues",
+        "Mentoring of new employees and student apprentices"
+      ]
+    },
+    {
+      "company": "Robert Bosch GmbH",
+      "location": "Stuttgart, Germany",
+      "position": "Agile Coach",
+      "url": "https://www.bosch.de/",
+      "startDate": "2021-02-01",
+      "endDate": "2022-02-01",
+      "summary": "Helping the team grow and build Software better.",
+      "highlights": [
+        "Driving the agile development of the team, the agile coaches and our surroundings",
+        "Educating team members in the agile mindset",
+        "Providing methods and supporting the team with their 'inspect and adapt' journey"
+      ]
+    },
+    {
+      "company": "Robert Bosch GmbH",
+      "location": "Stuttgart, Germany",
+      "position": "Software Engineer - Bosch IoT Cloud",
+      "url": "https://www.bosch.de/",
+      "startDate": "2016-08-01",
+      "endDate": "2019-01-14",
+      "summary": "DevOps evangelist, Continuous Delivery practicioner and test automation expert for the Bosch IoT Cloud. Trying to make cloudy dreams come true.",
+      "highlights": [
+        "Working in the testing team of the Bosch IoT Cloud",
+        "Conception and implementation of automated tests (functional / non-functional) in collaboration with Service-Owners",
+        "Design and architecture of distributed software staging workflow",
+        "Helping the organizaton adopt DevOps practices",
+        "Digitization and modernization of the risk management process of the organization",
+        "Collaborating with international teams"
+      ]
+    },
+    {
+      "company": "Robert Bosch GmbH",
+      "location": "Schwieberdingen, Germany",
+      "position": "Software Engineer - Gasoline Systems Transmission Control",
+      "url": "https://www.bosch.de/",
+      "startDate": "2012-10-01",
+      "endDate": "2016-07-31",
+      "summary": "Increasing engineering and developer productivity at Bosch's Gasoline Systems Transmission Control business unit. Conception and development of a configuration management strategy for customer project software as well as development tools.",
+      "highlights": [
+        "Conception, implementation and quality assurance of web-based tooling solutions",
+        "Configuration management strategies for versioning and dependency management of complex software subsystems",
+        "Supporting the design of change management and release processes",
+        "Used technologies: Java, Javascript, HTML, JUnit, Gradle, ANT, Maven, OSGi, Eclipse, RTC SCM, Tomcat, Derby"
+      ]
+    },
+    {
+      "company": "Fotospiegelwelt GbR",
+      "location": "Plochingen, Germany",
+      "position": "Co-Founder",
+      "url": "https://www.fotospiegelwelt.de/",
+      "startDate": "2020-10-01",
+      "summary": "Co-Founder of a company providing rental services for magic mirror photobooth systems for various events like weddings, birthday and christmas parties.",
+      "highlights": [
+        "Custom design and build of photobooth hardware and software",
+        "Distribution and customer acquisition",
+        "Design and operations of company website https://www.fotospiegelwelt.de"
+      ]
+    },
+    {
+      "company": "Festo AG & Co. KG",
+      "location": "Esslingen, Germany",
+      "position": "Student Trainee",
+      "url": "https://www.festo.com",
+      "startDate": "2011-10-01",
+      "endDate": "2012-06-30",
+      "summary": "Corporate Research - Systems Engineering.",
+      "highlights": [
+        "Conception and development of a GUI-based client application in order to integrate and unify querying interfaces of heterogeneous databases (MySQL, Microsoft SQL Server, Oracle)"
+      ]
+    },
+    {
+      "company": "University of Stuttgart",
+      "location": "Stuttgart, Germany",
+      "position": "Research Assistant",
+      "url": "https://www.bosch.de/",
+      "startDate": "2007-10-01",
+      "endDate": "2009-03-31",
+      "summary": "Institute for Parallel and Distributed Systems / Simulation of Large Systems",
+      "highlights": [
+        "Teaching assistant for introductory courses in numerical analysis and probability theory"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "url": "https://www.ou.edu/",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "score": "4.0",
+      "institution": "University of Stuttgart",
+      "url": "https://www.uni-stuttgart.de/en/",
+      "area": "Computer Science",
+      "studyType": "Diploma (Dipl.-Inf.)",
+      "startDate": "2005-10-01",
+      "endDate": "2012-06-01",
+      "score": "1.5",
       "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
+        "Institute for Parallel and Distributed Systems",
+        "Institute of Architecture of Application Systems"
       ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
     }
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Agile Principles & Practices",
+      "level": "Proficient",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "Agile Manifesto", "Pair Programming", "Mobbing", "Systems Thinking", "Open Feedback Culture"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "Programming Practices",
+      "level": "Proficient",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "TDD", "YAGNI", "DRY", "KISS", "Trunk based development", "Staging and Branching", "Testing"
+      ]
+    },
+    {
+      "name": "CI/CD",
+      "level": "Advanced",
+      "keywords": [
+        "Git", "Gitlab CI", "Github Actions", "Concourse CI", "Jenkins"
+      ]
+    },
+    {
+      "name": "Systems Admin",
+      "level": "BASIC",
+      "keywords": [
+        "Linux/Shell", "L3/L4 Networking", "Prometheus", "Grafana", "Alertmanager", "ELK Stack", "Splunk"
+      ]
+    },
+    {
+      "name": "Cloud & Containers",
+      "level": "Advanced",
+      "keywords": [
+        "Docker", "Kubernetes", "AWS", "GCP", "Azure", "Cloud Foundry", "Terraform", "Ansible", "BOSH", "REST", "OpenStack", "vSphere"
+      ]
+    },
+    {
+      "name": "App Development",
+      "level": "Advanced",
+      "keywords": [
+        "HTML", "CSS", "Javascript/NodeJS", "Java", "Spring Boot", "Microservices", "RabbitMQ", "MongoDB", "SQL"
       ]
     }
   ],
   "languages": [
     {
       "language": "English",
+      "fluency": "Full proficiency"
+    },
+    {
+      "language": "German",
       "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
+    },
     {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
-    }
-  ],
-  "projects": [
-    {
-      "name": "Miss Direction",
-      "description": "A mapping engine that misguides you",
-      "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
-      ],
-      "keywords": [
-        "GoogleMaps",
-        "Chrome Extension",
-        "Javascript"
-      ],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24",
-      "url": "missdirection.example.com",
-      "roles": [
-        "Team lead",
-        "Designer"
-      ],
-      "entity": "Smoogle",
-      "type": "application"
+      "language": "Greek",
+      "fluency": "Native speaker"
     }
   ],
   "meta": {
