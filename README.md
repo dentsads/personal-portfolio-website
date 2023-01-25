@@ -25,7 +25,14 @@ Deploy by syncing to S3.
 
 See the result at `http://dimitrios.dentsas.com/resume/`
 
-In order to build the resume locally execute the following
+In order to build the resume locally, first install the `resume-cli` and the `caffeine` theme
+
+```bash
+npm install -g resume-cli
+npm install jsonresume-theme-caffeine
+```
+
+afterwards build the resume locally
 
 ```bash
 cd resume
