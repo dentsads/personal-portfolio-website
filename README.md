@@ -23,9 +23,9 @@ Deploy by syncing to S3.
 
 ## Resume
 
-See the result at `http://dimitrios.dentsas.com/resume/`.
+See the result at `http://dimitrios.dentsas.com/resume/`
 
-In order to build the resume locally execte the following
+In order to build the resume locally execute the following
 
 ```bash
 cd resume
@@ -33,7 +33,7 @@ cd resume
 # build the resume.html
 resume export --resume resume.json --theme caffeine --format html build/resume.html
 
-# open the resume html in a browser
+# open the resume.html in a browser
 open build/resume.html
 ```
 
