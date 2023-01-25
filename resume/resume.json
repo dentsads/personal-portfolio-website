@@ -6,7 +6,7 @@
     "url": "http://dimitrios.dentsas.com",
     "email": "d.dentsas@gmail.com",
     "phone": "+49 176 62297047",
-    "summary": "I'm a Software Engineer who is passionate about working on solutions that bring value to business users through the help of technology. I have experience in software engineering, cloud & containers, web design and services for applications on GCP and AWS. My tech stack is Java, Spring Boot, Microservices, SQL, Linux, Kubernetes among many other technologies I learned over the years",
+    "summary": "I'm a Software Engineer who is passionate about working on solutions that bring value to business users through the help of technology. I have experience in software engineering, cloud & containers, web design and services for applications on GCP and AWS. My tech stack is Java, Spring Boot, Microservices, SQL, Linux, Kubernetes among many other technologies I learned over the years.",
     "location": {
       "address": "Deizisau, Germany"
     },
@@ -93,35 +93,11 @@
       "position": "Co-Founder",
       "url": "https://www.fotospiegelwelt.de/",
       "startDate": "2020-10-01",
-      "summary": "Co-Founder of a company providing rental services for magic mirror photobooth systems for various events like weddings, birthday and christmas parties.",
+      "summary": "Co-Founder of a company providing rental services for magic mirror photobooth systems for various events like weddings, birthdays and christmas parties.",
       "highlights": [
         "Custom design and build of photobooth hardware and software",
         "Distribution and customer acquisition",
         "Design and operations of company website https://www.fotospiegelwelt.de"
-      ]
-    },
-    {
-      "company": "Festo AG & Co. KG",
-      "location": "Esslingen, Germany",
-      "position": "Student Trainee",
-      "url": "https://www.festo.com",
-      "startDate": "2011-10-01",
-      "endDate": "2012-06-30",
-      "summary": "Corporate Research - Systems Engineering.",
-      "highlights": [
-        "Conception and development of a GUI-based client application in order to integrate and unify querying interfaces of heterogeneous databases (MySQL, Microsoft SQL Server, Oracle)"
-      ]
-    },
-    {
-      "company": "University of Stuttgart",
-      "location": "Stuttgart, Germany",
-      "position": "Research Assistant",
-      "url": "https://www.bosch.de/",
-      "startDate": "2007-10-01",
-      "endDate": "2009-03-31",
-      "summary": "Institute for Parallel and Distributed Systems / Simulation of Large Systems",
-      "highlights": [
-        "Teaching assistant for introductory courses in numerical analysis and probability theory"
       ]
     }
   ],
@@ -129,7 +105,7 @@
     {
       "institution": "University of Stuttgart",
       "url": "https://www.uni-stuttgart.de/en/",
-      "area": "Computer Science",
+      "area": "Computer Science - grade 1.5 'sehr gut'",
       "studyType": "Diploma (Dipl.-Inf.)",
       "startDate": "2005-10-01",
       "endDate": "2012-06-01",
