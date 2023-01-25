@@ -20,3 +20,21 @@ export AWS_SECRET_KEY=<aws-secret-key>
 Deploy by syncing to S3.
 
 `sh deploy.sh`
+
+## Resume
+
+See the result at `http://dimitrios.dentsas.com/resume/`.
+
+In order to build the resume locally execte the following
+
+```bash
+cd resume
+
+# build the resume.html
+resume export --resume resume.json --theme caffeine --format html build/resume.html
+
+# open the resume html in a browser
+open build/resume.html
+```
+
+Everything you push to the `master` branch will be built by a Github action and published at `http://dimitrios.dentsas.com/resume/`
